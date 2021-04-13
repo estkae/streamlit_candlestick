@@ -7,8 +7,8 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 
 
-DATA_URL = ("C:/Users/Divya/gainers.csv")
-DATA_UR= ("C:/Users/Divya/losers.csv")
+DATA_URL = ("gainers.csv")
+DATA_UR= ("losers.csv")
 df=pd.read_csv(DATA_URL)
 df1=pd.read_csv(DATA_UR)
 
